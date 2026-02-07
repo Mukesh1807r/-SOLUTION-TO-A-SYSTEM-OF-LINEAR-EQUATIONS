@@ -15,11 +15,14 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
-'''
+```
 # Program to find the solution of a system of linear equations
 # Developed by: MUKESH R
 # RegisterNumber: 212224240098
 
+```
+
+```
 import numpy as np
 
 A = np.array([
@@ -30,8 +33,11 @@ B = np.array([5, -3])
 X = np.linalg.solve(A, B)
 print(X)
 
-'''
+```
 ## Output:
+
+<img width="379" height="165" alt="image" src="https://github.com/user-attachments/assets/721e8917-264a-4fb6-ac36-9484802e86f8" />
+
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
